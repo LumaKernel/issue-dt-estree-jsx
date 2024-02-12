@@ -2,6 +2,8 @@
 
 NOTE: There're no correspoind runtime package.
 
+PR: https://github.com/DefinitelyTyped/DefinitelyTyped/pull/68598
+
 First, see `main.ts` or output of that in `main.ts.out.txt`. (This is made by `bun run ./main.ts > ./main.ts.out.txt`)
 
 You can see this part:
