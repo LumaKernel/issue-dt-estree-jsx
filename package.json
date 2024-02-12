@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/estree": "^1.0.5",
-    "@types/estree-jsx": "^1.0.4",
+    "@types/estree": "1.0.5",
+    "@types/estree-jsx": "1.0.4",
     "@types/node": "^20.11.17",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
