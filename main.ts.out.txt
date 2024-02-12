@@ -1,0 +1,103 @@
+{
+  type: 'root',
+  children: [
+    {
+      type: 'mdxFlowExpression',
+      value: '<><span>hi</span></>',
+      position: {
+        start: { line: 1, column: 1, offset: 0 },
+        end: { line: 1, column: 23, offset: 22 }
+      },
+      data: {
+        estree: {
+          type: 'Program',
+          start: 1,
+          end: 21,
+          body: [
+            {
+              type: 'ExpressionStatement',
+              expression: {
+                type: 'JSXFragment',
+                start: 1,
+                end: 21,
+                openingFragment: {
+                  type: 'JSXOpeningFragment',
+                  start: 1,
+                  end: 3,
+                  attributes: [],
+                  selfClosing: false,
+                  loc: {
+                    start: { line: 1, column: 1, offset: 1 },
+                    end: { line: 1, column: 3, offset: 3 }
+                  },
+                  range: [ 1, 3 ]
+                },
+                closingFragment: {
+                  type: 'JSXClosingFragment',
+                  start: 18,
+                  end: 21,
+                  loc: {
+                    start: { line: 1, column: 18, offset: 18 },
+                    end: { line: 1, column: 21, offset: 21 }
+                  },
+                  range: [ 18, 21 ]
+                },
+                children: [
+                  {
+                    type: 'JSXElement',
+                    start: 3,
+                    end: 18,
+                    openingElement: {
+                      type: 'JSXOpeningElement',
+                      start: 3,
+                      end: 9,
+                      attributes: [],
+                      name: [Object],
+                      selfClosing: false,
+                      loc: [Object],
+                      range: [Array]
+                    },
+                    closingElement: {
+                      type: 'JSXClosingElement',
+                      start: 11,
+                      end: 18,
+                      name: [Object],
+                      loc: [Object],
+                      range: [Array]
+                    },
+                    children: [ [Object] ],
+                    loc: { start: [Object], end: [Object] },
+                    range: [ 3, 18 ]
+                  }
+                ],
+                loc: {
+                  start: { line: 1, column: 1, offset: 1 },
+                  end: { line: 1, column: 21, offset: 21 }
+                },
+                range: [ 1, 21 ]
+              },
+              start: 1,
+              end: 21,
+              loc: {
+                start: { line: 1, column: 1, offset: 1 },
+                end: { line: 1, column: 21, offset: 21 }
+              },
+              range: [ 1, 21 ]
+            }
+          ],
+          sourceType: 'module',
+          comments: [],
+          loc: {
+            start: { line: 1, column: 1, offset: 1 },
+            end: { line: 1, column: 21, offset: 21 }
+          },
+          range: [ 1, 21 ]
+        }
+      }
+    }
+  ],
+  position: {
+    start: { line: 1, column: 1, offset: 0 },
+    end: { line: 1, column: 23, offset: 22 }
+  }
+}
